@@ -62,3 +62,7 @@ def createJira():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
+
+#Github integration with Jira to create the issues complete automation
+#Github -- git repo webhook --> ec2 instance python script --> Jira issues create
+
